@@ -1,0 +1,17 @@
+{
+  "name": "node-server-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "benchmark": "node src/benchmark.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "fastify": "^5.12.5",
+    "autocannon": "^8.0.0"
+  }
+}
